@@ -1,5 +1,6 @@
 # spellCheckerJava
 Currently in O(n) speed, will update to Trie or BKTree soon.
+Finds the best correctly spelled word match for an entered misspelled word.
 
 # WordGen.java
 
