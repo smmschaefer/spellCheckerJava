@@ -35,8 +35,8 @@ public class WordGen {
                 wordContainer.add(x.next());
             }
             x.close();
-        } catch (NullPointerException e) {
-            System.out.println("Error - NullPointerException");
+        } catch (Exception e) {
+            System.out.println("Error - NoElementException");
         }
 
         loadEnglishWords();
